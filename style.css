@@ -20,9 +20,8 @@ body {
 /* UI vlavo hore */
 #file {
   position: fixed;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 32px;
+  left: 32px;
   z-index: 10;
   }
 
