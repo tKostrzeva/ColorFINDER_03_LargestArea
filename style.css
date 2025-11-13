@@ -1,0 +1,62 @@
+:root {
+    --size: 33%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* fullscreen farba pozadia */
+#bg {
+  position: fixed;
+  inset: 0;
+  background: #808080;
+  z-index: -1;
+}
+
+/* UI vlavo hore */
+#file {
+  position: fixed;
+  top: 32px;
+  left: 32px;
+  z-index: 10;
+  }
+
+#placeholder {
+  position: fixed;
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-radius: 100%;
+  background-color: #6C6C6C;
+  z-index: 0;
+}
+
+/* Preview obrazku na stred viewport-u */
+#previewBtn {
+  position: fixed;
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-radius: 100%;
+  z-index: 10;
+}
