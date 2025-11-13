@@ -1,5 +1,5 @@
 :root {
-    --size: 33%;
+  --size: 33%;
 }
 
 body {
@@ -23,13 +23,13 @@ body {
   top: 32px;
   left: 32px;
   z-index: 10;
-  }
+}
 
 #placeholder {
   position: fixed;
   display: block;
-  width: min(33vh, 33vw);
-  height: min(33vh, 33vw);
+  width: min(50vh, 50vw);
+  height: min(50vh, 50vw);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -43,8 +43,8 @@ body {
 #previewBtn {
   position: fixed;
   display: block;
-  width: min(33vh, 33vw);
-  height: min(33vh, 33vw);
+  width: min(50vh, 50vw);
+  height: min(50vh, 50vw);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -55,4 +55,17 @@ body {
   background-color: transparent;
   border-radius: 50%;
   z-index: 10;
+}
+
+/* DESKTOP — väčšie obrazovky */
+@media (min-width: 768px) {
+  #placeholder {
+    width: min(33vh, 33vw);
+    height: min(33vh, 33vw);
+  }
+
+  #previewBtn {
+    width: min(33vh, 33vw);
+    height: min(33vh, 33vw);
+  }
 }
