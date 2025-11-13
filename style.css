@@ -28,8 +28,8 @@ body {
 #placeholder {
   position: fixed;
   display: block;
-  width: var(--size);
-  height: var(--size);
+  width: min(33vh, 33vw);
+  height: min(33vh, 33vw);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,8 +47,8 @@ body {
 #previewBtn {
   position: fixed;
   display: block;
-  width: var(--size);
-  height: var(--size);
+  width: min(33vh, 33vw);
+  height: min(33vh, 33vw);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
